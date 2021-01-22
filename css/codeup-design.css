@@ -1,9 +1,11 @@
 
 #custom, #name-header {
-    letter-spacing: 5px;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
+}
 
+#name-header {
+    letter-spacing: 5px;
 }
 
 .circle {
@@ -19,41 +21,17 @@
 
 }
 
-/*.circle-content {*/
-/*    align-items: center;*/
-/*    display: flex;*/
-/*    height: 50%;*/
-/*    hyphens: auto;*/
-/*    justify-content: center;*/
-/*    left: 50%;*/
-/*    padding: 0.75em;*/
-/*    position: absolute;*/
-/*    text-align: center;*/
-/*    transform: translate(-50%, -50%);*/
-/*    top: 50%;*/
-/*    width: 50%;*/
-/*    font-size: 10px;*/
-/*}*/
-/*.container {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
 
 .one-to-one {
-    width: 100%;
-    padding-top: calc(100% - 16px); /* Subtract Borders */
-    position: relative;
+    width: 105px;
+    height: 105px;
+    /*padding-top: calc(100% - 16px);
+     !* Subtract Borders *!*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /*background: #4b5263;*/
-    border: 15px solid #f0f0f0;
-    border-radius: 50%;
-}
-
-.two-to-one {
-    width: 100%;
-    padding-top: calc(100% - 16px); /* Subtract Borders */
-    position: relative;
-    /*background: #4b5263;*/
-    border: 15px solid #f0f0f0;
+    border: 10px solid #f0f0f0;
     border-radius: 50%;
 }
 
@@ -85,4 +63,50 @@
 .color-4 {
     background-color: #00aba9;
     color: white;
+}
+
+hr {
+    width:100%;
+    background-color: #E6E6E6;
+    padding: 2px;
+    border: none;
+    margin-top: 30px;
+}
+
+img {
+    border: 8px solid #E6E6E6;
+    border-radius: 7px;
+
+}
+
+.pill-color1 {
+    background-color: #e6563b;
+    height: 18px;
+    width: 18px;
+}
+.pill-color2 {
+    background-color: #eb9d3a;
+    height: 18px;
+    width: 18px;
+}
+.pill-color3 {
+    background-color: #7cb06c;
+    height: 18px;
+    width: 18px;
+}
+.pill-color4 {
+    background-color: #00aba9;
+    height: 18px;
+    width: 18px;
+}
+
+.card {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+p {
+
 }
