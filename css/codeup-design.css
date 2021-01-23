@@ -4,6 +4,7 @@
     font-weight: bold;
 }
 
+
 #name-header {
     letter-spacing: 5px;
 }
@@ -104,6 +105,5 @@ img {
     border: none;
     display: flex;
     justify-content: space-between;
-
 }
 
