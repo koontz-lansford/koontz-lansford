@@ -75,7 +75,7 @@ hr {
 }
 
 img {
-    border: 8px solid #E6E6E6;
+    border: 8px solid #f0f0f0;
     border-radius: 7px;
 
 }
@@ -107,3 +107,14 @@ img {
     justify-content: space-between;
 }
 
+.fa-twitter {
+    color: dodgerblue;
+}
+
+body {
+    background-color: #E6E6E6;
+}
+
+*card-body {
+    background-color: #f0f0f0;
+}
