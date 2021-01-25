@@ -1,12 +1,12 @@
 
 #custom, #name-header {
     font-family: 'Anton', sans-serif;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 
 #name-header {
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .circle {
@@ -68,7 +68,7 @@
 
 hr {
     width:100%;
-    background-color: #E6E6E6;
+    background-color: #f0f0f0;
     padding: 2px;
     border: none;
     margin-top: 30px;
@@ -105,6 +105,9 @@ img {
     border: none;
     display: flex;
     justify-content: space-between;
+    background-color: #E6E6E6;
+    font-family: 'Abel', sans-serif;
+
 }
 
 .fa-twitter {
@@ -118,3 +121,28 @@ body {
 *card-body {
     background-color: #f0f0f0;
 }
+
+.html>h2 {
+    font-family: 'Abel', sans-serif;
+}
+.navbar {
+    background-color: #E6E6E6;
+}
+
+.logo {
+    border: none;
+}
+.nav-link {
+    color: black;
+    font-family: 'Abel', sans-serif;
+}
+.topLogo {
+    background-color: white;
+    height: 50%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0;
+    width: 100%;
+
+}
+
