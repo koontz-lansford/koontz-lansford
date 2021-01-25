@@ -161,12 +161,12 @@ body {
 }
 
 .imagePreview {
-    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 50px;
-    border: 3px solid #f0f0f0;
-    border-radius: 5px;
-    background-position: center;
-    background-size: 65px;
+    height: 50px;
+    margin-right: 10px;
+    /*margin-left: 10px;*/
 }
 
 #google {
