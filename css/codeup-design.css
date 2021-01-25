@@ -32,7 +32,7 @@
     justify-content: center;
     align-items: center;
     /*background: #4b5263;*/
-    border: 10px solid #f0f0f0;
+    border: 5px solid #f0f0f0;
     border-radius: 50%;
 }
 
@@ -120,6 +120,7 @@ body {
 
 *card-body {
     background-color: #f0f0f0;
+
 }
 
 .html>h2 {
@@ -127,10 +128,13 @@ body {
 }
 .navbar {
     background-color: #E6E6E6;
+
 }
 
 .logo {
     border: none;
+    position: relative;
+    bottom: 20px;
 }
 .nav-link {
     color: black;
@@ -138,11 +142,18 @@ body {
 }
 .topLogo {
     background-color: white;
-    height: 50%;
-    margin-top: 2em;
+    margin-top: 30px;
     margin-bottom: 2em;
     padding: 0;
     width: 100%;
+    height: 65px;
+}
 
+.topBrand {
+    font-family: 'Abel', sans-serif;
+}
+
+.smallFont {
+    font-family: 'Abel', sans-serif;
 }
 

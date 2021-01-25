@@ -12,33 +12,38 @@
 </head>
 
 <!--NAV-BAR-->
-<div class="container"></div>
-<nav class="navbar navbar-expand justify-content-center">
+
+<div class="container.fluid px-0 w-100">
+<nav class="row navbar bg-#E6E6E6 justify-content-center py-1">
+    <!-- set px-0 to override the inherit padding and allow the white box to flow to the edges -->
     <!--  Show this only on mobile screens  -->
-    <div class="row w-100">
+    <!--    <div class="row w-100 ">-->
+    <!--Top Logo-->
+    <a class="topLogo mb-3 d-flex col-sm-12 justify-content-center px-0">
+        <img class="logo" src="img/logo.png" width="105" height="105">
+    </a>
+    <h2 class="col-sm-12 text-center topBrand justify-content-md-center">
+        codeup design
+    </h2>
+    <!--Created topBrand class to modify the font of "code up design" -->
+    <ul class="navbar-nav navbar-expand text-center col-12 justify-content-around">
+        <li class="nav-item ">
+            <a class="nav-link" href="#">SERVICES</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="#">WORK</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="#">CONTACT</a>
+        </li>
 
-    <a class="topLogo col-sm-12 d-flex justify-content-center"><img class="logo" src="img/logo.png" width="105" height="105" ></a>
-
-        <h2 class="col-sm-12 text-center">Codeup Design</h2>
-
-        <ul class="navbar-nav col-12 col-sm-12 text-center">
-            <li class="nav-item col-3">
-                <a class="nav-link" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item col-3">
-                <a class="nav-link" href="#">WORK</a>
-            </li>
-            <li class="nav-item col-3">
-                <a class="nav-link" href="#">BLOG</a>
-            </li>
-            <li class="nav-item col-3">
-                <a class="nav-link" href="#">CONTACT</a>
-            </li>
-
-        </ul>
-    </div>
-        <!--   Show this only lg screens and up   -->
-<!--        <a class="navbar-brand" href="#"><img src="img/logo.png" width="105" height="105"></a>-->
+    </ul>
+    <!--    </div>-->
+    <!--   Show this only lg screens and up   -->
+    <!--        <a class="navbar-brand" href="#"><img src="img/logo.png" width="105" height="105"></a>-->
 </nav>
 </div>
 
@@ -47,9 +52,11 @@
 <header>
     <div class="container my-3 text-center">
         <h2 id="name-header">VISUAL DESIGN & WEB DEVELOPMENT</h2>
-        <h4 class="my-3">FROM PARK CITY, UTAH</h4>
+        <h5 class="my-3">FROM PARK CITY, UTAH</h5>
     </div>
 </header>
+
+<!--CIRCLES-->
 
 <div class="container">
     <div class="row">
@@ -89,15 +96,16 @@
         <main class="row">
 
             <!--CARD 1-->
+            <!--Used pt-0 (padding-top: 0px;) to remove the extra padding on top of the "featured Project text-->
             <div class="col-sm-12 col-md-8">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 d-flex flex-column align-content-center justify-content-center">
                         <div class="row card mx-auto" style="width: 100%;">
                             <img class="card-img-top" src="img/apple-ipad.jpg" width="100%" alt="ipad">
-                            <div class="row mt-1 card-body">
+                            <div class="row mt-1 card-body pt-0">
                                 <div class="col-6">FEATURED PROJECT</div>
-                                <div class="col-6 d-flex justify-content-end">
-                                    <div class="badge badge-pill pill-color1 mx-1">D</div>
+                                <div class="col-6 d-flex justify-content-end ">
+                                    <div class="badge badge-pill pill-color1 fw-bold mx-1">D</div>
                                     <div class="badge badge-pill pill-color2 mx-1">D</div>
                                     <div class="badge badge-pill pill-color3 mx-1">S</div>
                                     <div class="badge badge-pill pill-color4 ml-1">H</div>
@@ -109,7 +117,7 @@
                     <div class="col-sm-12 col-md-6 d-flex flex-column align-content-center justify-content-center">
                         <div class="row card mx-auto" style="width: 100%;">
                             <img class="card-img-top" src="img/macbook.jpg" width="100%" alt="ipad">
-                            <div class="row mt-1 card-body">
+                            <div class="row mt-1 card-body pt-0">
                                 <div class="col-6">FEATURED PROJECT</div>
                                 <div class="col-6 d-flex justify-content-end">
                                     <div class="badge badge-pill pill-color1 mx-1">D</div>
@@ -125,7 +133,7 @@
                     <div class="col-sm-12 col-md-6 d-flex flex-column align-content-center justify-content-center">
                         <div class="row card mx-auto" style="width: 100%;">
                             <img class="card-img-top" src="img/man.jpg" width="100%" alt="ipad">
-                            <div class="row mt-1 card-body">
+                            <div class="row mt-1 card-body pt-0">
                                 <div class="col-6">FEATURED PROJECT</div>
                                 <div class="col-6 d-flex justify-content-end">
                                     <div class="badge badge-pill pill-color1 mx-1">D</div>
@@ -140,7 +148,7 @@
                     <div class="col-sm-12 col-md-6 d-flex flex-column align-content-center justify-content-center">
                         <div class="row card mx-auto" style="width: 100%;">
                             <img class="card-img-top" src="img/security.jpg" width="100%" alt="ipad">
-                            <div class="row mt-1 card-body">
+                            <div class="row mt-1 card-body pt-0">
                                 <div class="col-6">FEATURED PROJECT</div>
                                 <div class="col-6 d-flex justify-content-end">
                                     <div class="badge badge-pill pill-color1 mx-1">D</div>
@@ -154,7 +162,9 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 d-flex"> <!-- Changed to col-md-4 -->
+            <!--SIDEBAR "THE LAST"-->
+
+            <div class="col-sm-12 col-md-4 d-flex d-none d-md-block"> <!-- Changed to col-md-4 -->
                 <div class="card-top">
                     <div class="col" style="width: 100%">
                         <div class="card-1 d-flex">
@@ -163,16 +173,17 @@
                         </div>
                         <div class="card-2 d-flex mt-5">
                             <img src="img/head.jpg" width="50%" alt="3d-head">
-                            <p class="col-8">NIBBLER AWESOME WEBSITE TESTING</p>
+                            <p class="col-9">NIBBLER AWESOME WEBSITE TESTING</p>
                         </div>
                         <div class="card-3 d-flex mt-5">
                             <img src="img/ipad.jpg" width="50%" alt="hand holding ipad.">
-                            <p class="col-8">HOW TO GET GOOGLE TO LIKE YOU</p>
+                            <p class="col-9">HOW TO GET GOOGLE TO LIKE YOU</p>
                         </div>
                         <div class="card-4 d-flex mt-5">
                             <p><i class="fab fa-twitter mx-2"></i>Last tweet</p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto at cum debitis
+                        <p class="smallFont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                            architecto at cum debitis
                             dolor dolore dolorem ducimus earum enim exercitationem, minus nihil nobis perferendis porro
                             quas quo quos saepe unde.</p>
                     </div>
